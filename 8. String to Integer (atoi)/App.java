@@ -24,6 +24,40 @@ class Solution {
 
         // }
         // }
+        
+                // s = s.trim();
+        // int flag = 1; // default
+        // int i = 0;
+        // int result = 0;
+        // if (s.length() == 0) {
+        // return 0;
+        // }
+
+        // if (s.charAt(0) == '+') {
+        // i = 1;
+        // }
+
+        // if (s.charAt(0) == '-') {
+        // flag = -1;
+        // i = 1;
+        // }
+        // for (; i < s.length(); i++) {
+
+        // if (!Character.isDigit(s.charAt(i))) {
+        // break;
+        // }
+
+        // if (result > Integer.MAX_VALUE / 10
+        // || (result == Integer.MAX_VALUE && s.charAt(i) - '0' > Integer.MAX_VALUE %
+        // 10)) {
+        // return flag == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+        // } else {
+        // result = result * 10 + s.charAt(i) - '0';
+
+        // }
+
+        // }
+        // return result * flag;
         s = s.trim();
         int flag = 0; // default
         int i = 0;
